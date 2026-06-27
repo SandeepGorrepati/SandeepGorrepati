@@ -1,31 +1,29 @@
 # Hi, I'm Sandeep Gorrepati 👋
 
-RTL and Design-Verification engineer, ECE 2025. I build digital hardware and the self-checking testbenches that prove it works — SystemVerilog, UVM, SVA, and RISC-V, with code, logs, and waveforms in every repo.
+**2025 ECE graduate** building and verifying digital hardware — targeting **Design Verification, RTL / Digital Design, and Pre-Silicon Validation** roles in the semiconductor industry.
 
-Currently deepening UVM — sequences, RAL, coverage closure — and SVA.
+📍 Bengaluru, India · open to relocation (India / Taiwan / Singapore / Malaysia)
+🔗 LinkedIn: linkedin.com/in/sandeep-gorrepati-vlsi · ✉️ sandeep2gvn@gmail.com
 
-Rajahmundry, India · open to relocate · open to Design Verification, RTL, and Pre-Silicon Validation roles.
+## 🔧 What I work with
+**Languages:** SystemVerilog, Verilog, Python, C/C++
+**Verification:** UVM (driver / monitor / scoreboard / RAL), SVA, constrained-random, functional-coverage closure, cocotb
+**Formal:** SymbiYosys + Z3 (k-induction)
+**Protocols / Arch:** AXI4-Lite, APB, SPI, RV32I, 5-stage pipeline
+**RTL / Flow:** RTL design, Verilator lint, Yosys synthesis, OpenROAD / Sky130, OpenSTA
+**DFT:** scan insertion, stuck-at ATPG, fault coverage
 
-Email: sandeep2gvn@gmail.com
+Methodology is tool-agnostic and transferable to VCS / Questa / Xcelium and Verdi-style debug.
 
-LinkedIn: linkedin.com/in/sandeep-gorrepati-vlsi
+## 🚀 Proof projects (runnable + CI-tested)
 
-## Verification
+| Project | What it shows | Result |
+| --- | --- | --- |
+| apb-regfile-cocotb | AMBA APB4 slave: cocotb BFM, scoreboard, coverage, PSLVERR error paths | 300 random txns, 0 mismatches, 100% coverage |
+| spi-master-cocotb | SPI master, all 4 CPOL/CPHA modes: cocotb slave BFM, scoreboard | 48 transfers, 0 mismatches, 100% coverage |
+| dft-scan-atpg | Full-scan insertion + from-scratch stuck-at ATPG / fault sim | 100% testable fault coverage, 9 patterns, 0 redundant |
+| synth-sta | Yosys synthesis + OpenSTA timing (SDC, WNS / TNS) | gate-level netlist, critical-path analysis |
+| ddr-controller-verification | RV32I + memory-controller verification, scoreboard checks | self-checking regressions, PASS/FAIL clean |
 
-axi4lite-uvm-verification — full UVM environment: agent, reference-model scoreboard, covergroups, SVA, constrained-random sequences
-
-axi-lite-sva-covergroup-proof — concurrent SVA assertions plus covergroup functional coverage, self-checking
-
-ddr-controller-verification — generator / driver / monitor / scoreboard testbench, protocol checks, Python regression
-
-axi4-lite-pcie-bridge — AXI4-Lite to PCIe-style bridge with protocol checks and coverage
-
-## RTL and Design
-
-rv32i-5stage-pipelined-core — 5-stage RISC-V pipeline: forwarding, load-use stall, hazard handling
-
-rtl-to-gdsii-openroad-flow — open-source ASIC flow exploration with Yosys, OpenROAD, Sky130
-
-## Toolbox
-
-SystemVerilog · Verilog · UVM · SVA · Functional Coverage · AXI4-Lite · RISC-V · Python · Questa and VCS via EDA Playground · Icarus Verilog · Verilator · Yosys · OpenROAD · GTKWave · Git · Linux
+## 📫 Open to opportunities
+Entry-level **DV / RTL / Validation / DFT** roles. Resume on request — happy to connect.
