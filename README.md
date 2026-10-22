@@ -19,7 +19,6 @@ India · targeting Bengaluru; open to relocation across India, Singapore, Malays
 | [SPI Master cocotb Verification](https://github.com/SandeepGorrepati/spi-master-cocotb) | Python slave BFM, scoreboard and all CPOL/CPHA combinations | 48 self-checked transfers, 0 mismatches |
 | [DDR Controller Verification](https://github.com/SandeepGorrepati/ddr-controller-verification) | Simplified memory-controller verification with self-checking transaction and data-integrity tests | 2,200 traffic cycles and 1,329 read responses checked against a Python cycle oracle; not a full DDR controller |
 | [AXI4-Lite to PCIe-Style Bridge](https://github.com/SandeepGorrepati/axi4-lite-pcie-bridge) | Educational AXI4-Lite-to-packet-interface RTL and FSM verification | 1,075 oracle write/read pairs; independent AW/W, AXI/packet stalls, error routing; not PCIe-compliant |
-
 | [Synthesis and Netlist Equivalence](https://github.com/SandeepGorrepati/rtl-to-gdsii-openroad-flow) | Fresh generic synthesis, RTL/gate simulation, formal equivalence | 8,200 vectors per implementation; all 32 output equivalence bits proven; physical design remains exploratory |
 
 ## Technical stack
